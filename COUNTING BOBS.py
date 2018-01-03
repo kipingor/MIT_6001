@@ -4,8 +4,8 @@
 # For example, if s = 'azcbobobegghakl', then your program should print
 
 s = "azcbobobegghakl"
-countBob = 0
+j = 0
 for i in range(len(s)):
     if s[i:].startswith('bob'):
-        countBob += 1
-print("Number of times bob occurs is: ") + str(countBob)
+        j += 1
+print("Number of times bob occurs is: " + str(j))

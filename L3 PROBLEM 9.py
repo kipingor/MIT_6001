@@ -10,6 +10,7 @@ numGuesses = 0
 low = 0
 high = x
 ans = int((high + low)/2)
+print("Please think of a number between 0 and 100!")
 print("is your secret number", str(ans) + "?")
 guess = input("Enter 'h' to indicate the guess is too high. Enter 'l' to indicate the guess is too low. Enter 'c' to indicate I guessed correctly. ")
 while guess != 'c':
